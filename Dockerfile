@@ -7,7 +7,7 @@ RUN apt-get update && apt-get upgrade && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN wget http://www.dresden-elektronik.de/rpi/deconz/deconz-2.04.18.deb && \
+RUN wget http://www.dresden-elektronik.de/rpi/deconz/deconz-2.04.35.deb && \
     dpkg -i deconz-2.04.35.deb && \
     rm *.deb
 
