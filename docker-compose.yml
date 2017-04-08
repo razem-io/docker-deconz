@@ -1,0 +1,14 @@
+version: '2'
+services:
+ srv:
+  restart: always
+  build: ./
+  devices:
+   - /dev/ttyAMA0
+   - /dev/mem
+  volumes:
+   - ./data/otau:/root/otau
+   - ./data/local:/root/.local
+  ports:
+   - 0.0.0.0:8080:80
+  privileged: true
