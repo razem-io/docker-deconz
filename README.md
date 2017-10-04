@@ -18,7 +18,7 @@ cd docker-deconz
 docker-compose up -d
 ```
 
-Browse to <ip-of-the-pi>:8080 to access the web frontend of deCONZ and have a great light show!
+Browse to ip-of-the-pi:8080 to access the web frontend of deCONZ and have a great light show!
 
 ## Update
 
