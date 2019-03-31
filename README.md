@@ -1,3 +1,6 @@
+# No longer maintained
+use https://github.com/marthoc/docker-deconz instead
+
 # deCONZ dockerized
 
 This Dockerfile uses the X virtual framebuffer or short Xvfb to run deCONZ which is needed to controll your RaspBee. You do not need to
